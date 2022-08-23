@@ -1,6 +1,6 @@
 <p align="center">
   <a href="" rel="noopener">
- <img src="https://yt3.ggpht.com/ytc/AMLnZu-PjRc81p0qP-ZPWxv8aY4k-4gFRzGEYs3HWbIQ=s900-c-k-c0x00ffffff-no-rj" alt="Project logo" style="width:50%"></a>
+ <img src="https://yt3.ggpht.com/ytc/AMLnZu-PjRc81p0qP-ZPWxv8aY4k-4gFRzGEYs3HWbIQ=s900-c-k-c0x00ffffff-no-rj" alt="Project logo"></a>
 </p>
 
 <h3 align="center">Transparent Login Form with Validation</h3>
