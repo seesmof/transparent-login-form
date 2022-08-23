@@ -1,0 +1,66 @@
+/* root */
+:root {
+  --buttonSolid: hsla(200, 100%, 50%);
+  --button: hsla(200, 100%, 50%, 0.3);
+  --buttonHover: hsla(200, 100%, 70%, 0.3);
+}
+
+/* body */
+body {
+  background-image: url(../../img/bg.jpg);
+  background-size: cover;
+
+  height: 100vh;
+}
+
+/* main */
+.card {
+  background: rgba(0, 0, 0, 0.5);
+
+  border-radius: 1rem;
+
+  max-width: 600px;
+  width: 80%;
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  label {
+    cursor: help;
+  }
+
+  input {
+    background: hsla(0, 0%, 60%, 0.5);
+
+    color: white;
+
+    &:focus {
+      background: hsla(0, 0%, 60%, 0.5);
+
+      border: 1px solid var(--buttonSolid);
+    }
+  }
+
+  button {
+    background: var(--button);
+
+    outline: none;
+    border: 1px solid var(--buttonSolid);
+
+    transition: 0.2s ease;
+
+    margin-top: 1rem;
+
+    &:hover {
+      background: var(--buttonHover);
+    }
+  }
+
+  .invalid-feedback,
+  .valid-feedback {
+    margin-top: -1.3rem;
+
+    font-size: 0.7rem;
+  }
+}
